@@ -27,3 +27,21 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 ```shell
 mvn spring-boot:run
 ```
+
+## Documentation
+## GET
+`get country data` [http://localhost:8080/{code}](#get-1billingretrieve-billing-datajson) 
+
+## Example 
+http://localhost:8080/ARG
+
+### response
+
+{
+
+    "name": "Argentina",
+    "continent": "South America",
+    "population": 37032000,
+    "life_expectancy": 75,
+    "country_language": "Spanish"
+}
