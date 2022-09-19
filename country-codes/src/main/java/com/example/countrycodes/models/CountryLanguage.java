@@ -13,10 +13,11 @@ import javax.persistence.*;
 @IdClass(CountryLanguageKey.class)
 public class CountryLanguage {
 
-@Id
-@Column(name="country_code")
+    @Id
+    @Column(name="country_code")
     private  String  code;
-@Id
+
+    @Id
     private  String language;
 
     boolean is_official;
