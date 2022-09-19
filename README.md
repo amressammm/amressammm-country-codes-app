@@ -1,7 +1,7 @@
 
 # Country codes app
 
-A Spring Boot backend application that given a specefic country code return the country name, continent, population, life expectancy and it's official language.
+A Spring Boot backend application that given a specefic country code returns the country name, continent, population, life expectancy and it's official language.
 
 
 ## Requirements
